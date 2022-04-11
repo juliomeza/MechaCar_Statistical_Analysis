@@ -16,6 +16,7 @@ summary(lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_cleara
 
 
 
+
 # Import Suspension_Coil.csv
 suspension_table <- read.csv('Suspension_Coil.csv',check.names = F,stringsAsFactors = F)
 # Data Frame
