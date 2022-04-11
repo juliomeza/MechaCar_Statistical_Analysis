@@ -18,3 +18,11 @@ Also, the adjusted R-squared is greater than 0.6 (0.6825)
 
 
 ## Study Design: MechaCar vs Competition
+
+* Does dark chocolate positively affect arterial function in healthy individuals? 
+
+  * Hypothesis - If dark chocolate is related to arterial function in healthy individuals, then consuming 30g of dark chocolate per day for 1 year will result in improved arterial function.
+
+  * Null Hypothesis - If dark chocolate is not related to arterial function in healthy individuals, then consuming 30g per day of dark chocolate for 1 year will show no improvement in arterial function.
+
+  * Alternative Hypothesis - If dark chocolate is related to arterial function in healthy individuals, then consuming 30g of dark chocolate per day for 1 year will show improvement in arterial function.
