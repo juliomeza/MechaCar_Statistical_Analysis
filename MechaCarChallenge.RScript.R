@@ -10,3 +10,12 @@ head(cars_table)
 # Multiple Linear Regression
 lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD,data=cars_table) #generate multiple linear regression model
 summary(lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD,data=cars_table)) #generate summary statistics
+
+
+
+# Import Suspension_Coil.csv
+suspension_table <- read.csv('Suspension_Coil.csv',check.names = F,stringsAsFactors = F)
+# Data Frame
+total_summary <- summarize(suspension_table, mean(PSI), median(PSI), var(PSI), sd(PSI))
+total_summary
+
