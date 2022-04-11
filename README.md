@@ -4,3 +4,4 @@
 
 ## Summary Statistics on Suspension Coils
 
+## Study Design: MechaCar vs Competition
