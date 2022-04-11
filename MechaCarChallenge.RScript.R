@@ -3,6 +3,8 @@ library(ggplot2)
 library(dplyr)
 library(tidyr)
 
+### DELIVERABLE 1: LINEAR REGRESSION TO PREDICT MPG
+
 # Import MechaCar_mpg.csv
 cars_table <- read.csv('MechaCar_mpg.csv',check.names = F,stringsAsFactors = F)
 head(cars_table)
