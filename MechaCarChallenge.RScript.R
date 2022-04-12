@@ -16,7 +16,7 @@ summary(lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_cleara
 
 
 
-
+### DELIVERABLE 2: VISUALIZATIONS FOR THE TRIP ANALYSIS
 # Import Suspension_Coil.csv
 suspension_table <- read.csv('Suspension_Coil.csv',check.names = F,stringsAsFactors = F)
 # Data Frame
@@ -30,7 +30,7 @@ lot_summary
 
 
 
-
+### DELIVERABLE 3: T-TESTS ON SUSPENSIONS COILS
 # Population Table
 population_table <- read.csv('Suspension_Coil.csv',check.names = F,stringsAsFactors = F)
 plt <- ggplot(population_table,aes(x=log10(PSI))) #import dataset into ggplot2
