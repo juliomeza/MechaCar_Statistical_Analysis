@@ -35,9 +35,7 @@ Using the T-Test we can conlucde that the PSI accross all manufacturing lots is 
 <img src='https://github.com/juliomeza/MechaCar_Statistical_Analysis/blob/main/Screenshots/3-Lot3.png' width=350>
 </p>
 
-
-briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
-
+Comparing each manufacturing lot agains the mean PSI of the population, I can conclude that each lot is NOT statistically different from the population mean of 1,500 pounds per square inch because each lot has a p-value lower than 0.5.
 
 
 ## Study Design: MechaCar vs Competition
