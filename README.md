@@ -9,7 +9,12 @@ The vehicle length and the ground clearance as well as the intercept, are statis
 
 ## Summary Statistics on Suspension Coils
 
+<img src='https://github.com/juliomeza/MechaCar_Statistical_Analysis/blob/main/Screenshots/2-Chart.png'>
+
+
 <img src='https://github.com/juliomeza/MechaCar_Statistical_Analysis/blob/main/Screenshots/2-TotalSummary.png'>
+
+
 
 <img src='https://github.com/juliomeza/MechaCar_Statistical_Analysis/blob/main/Screenshots/2-LotSummary.png'>
 
