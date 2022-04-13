@@ -8,6 +8,11 @@ The vehicle length and the ground clearance as well as the intercept, are statis
 
 
 ## Summary Statistics on Suspension Coils
+
+<img src='https://github.com/juliomeza/MechaCar_Statistical_Analysis/blob/main/Screenshots/2-TotalSummary.png'>
+
+<img src='https://github.com/juliomeza/MechaCar_Statistical_Analysis/blob/main/Screenshots/2-LotSummary.png'>
+
 - write a short summary using screenshots from your total_summary and lot_summary dataframes, and address the following question:
 - The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
