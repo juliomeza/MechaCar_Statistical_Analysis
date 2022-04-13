@@ -14,14 +14,13 @@ The vehicle length and the ground clearance as well as the intercept, are statis
 
 <img src='https://github.com/juliomeza/MechaCar_Statistical_Analysis/blob/main/Screenshots/2-TotalSummary.png'>
 
-
+The mean and the median are very close to each other, means the data set has a symmetrical distribution. The distribution chart also confirms this. The variance and the standard deviation for the whole population are high. Means the data points are very spread out from the mean and from one another.
 
 <img src='https://github.com/juliomeza/MechaCar_Statistical_Analysis/blob/main/Screenshots/2-LotSummary.png'>
 
-- write a short summary using screenshots from your total_summary and lot_summary dataframes, and address the following question:
+The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch.
 
-- The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
-
+As a whole, all lotes together metts this criteria, with a variance of 62.29, but as an individual lots, only Lot1 and Lot2 meet the criteria, with variances of 0.98 and 7.47 respectively. Lot3 surpass the minimun requirement with a variance of 170.29, 70 PSI above the manufacturing specifictions.
 
 ## T-Tests on Suspension Coils
 briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
