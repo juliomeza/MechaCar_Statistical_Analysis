@@ -4,7 +4,6 @@ library(dplyr)
 library(tidyr)
 
 ### DELIVERABLE 1: LINEAR REGRESSION TO PREDICT MPG
-
 # Import MechaCar_mpg.csv
 cars_table <- read.csv('MechaCar_mpg.csv',check.names = F,stringsAsFactors = F)
 head(cars_table)
@@ -55,28 +54,23 @@ sample_table <- population_table %>% sample_n(50) #randomly sample 50 data point
 plt <- ggplot(sample_table,aes(x=log10(PSI))) #import dataset into ggplot2
 plt + geom_density() #visualize distribution using density plot
 # Test
-t.test(log10(sample_table$PSI),mu=mean(log10(population_table$PSI))) #compare sample versus population means
+t.test(log10(sample_table$PSI),mu=mean(log10(population_table$PSI)))
 # p-value is greater than 0.05. It is above the significant level.
 
 
 # Determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500
-
-
-
 population_table <- read.csv('Suspension_Coil.csv',check.names = F,stringsAsFactors = F)
 lot1 <- population_table %>% filter(Manufacturing_Lot=='Lot1') #select only data points where the lot is Lot1
 lot2 <- population_table %>% filter(Manufacturing_Lot=='Lot2') #select only data points where the lot is Lot2
 lot3 <- population_table %>% filter(Manufacturing_Lot=='Lot3') #select only data points where the lot is Lot3
 # Compare the mean difference between samples
-t.test(log10(lot1$PSI),mu=mean(log10(population_table$PSI)))
-t.test(log10(lot2$PSI),mu=mean(log10(population_table$PSI)))
-t.test(log10(lot3$PSI),mu=mean(log10(population_table$PSI)))
-
 t.test(lot1$PSI,mu=mean(population_table$PSI))
 t.test(lot2$PSI,mu=mean(population_table$PSI))
 t.test(lot3$PSI,mu=mean(population_table$PSI))
 
-
+t.test(log10(lot1$PSI),mu=mean(log10(population_table$PSI)))
+t.test(log10(lot2$PSI),mu=mean(log10(population_table$PSI)))
+t.test(log10(lot3$PSI),mu=mean(log10(population_table$PSI)))
 
 
 
