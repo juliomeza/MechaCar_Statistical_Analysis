@@ -4,17 +4,7 @@
 
 <img src='https://github.com/juliomeza/MechaCar_Statistical_Analysis/blob/main/Screenshots/1-LinearRegression.png'>
 
-write a short interpretation of the multiple linear regression results
-
-- Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
-The vehicle length and the ground clearance as well as the intercept, are statistically unlikely to provide random amounts of variance to the linear model.
-
-
-- Is the slope of the linear model considered to be zero? Why or why not?
-
-- Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
-It does because the p-value is less than 0.05 (5.35e-11).
-Also, the adjusted R-squared is greater than 0.6 (0.6825)
+The vehicle length and the ground clearance as well as the intercept, are statistically unlikely to provide random amounts of variance to the linear model. In addition, the linear model predicts MPG of MechaCar effectively because the p-value is less thn 0.05 (5.35e-11) and the adjusted R-squared is close to 0.7 (0.6825)
 
 
 ## Summary Statistics on Suspension Coils
