@@ -40,10 +40,10 @@ Comparing each manufacturing lot agains the mean PSI of the population, I can co
 
 ## Study Design: MechaCar vs Competition
 
-* Does dark chocolate positively affect arterial function in healthy individuals? 
+Does a high horse power over other manufacturer positively affect the sales of cars?
 
-  * Hypothesis - If dark chocolate is related to arterial function in healthy individuals, then consuming 30g of dark chocolate per day for 1 year will result in improved arterial function.
+* Hypothesis: Having a higer horse power performance than other manufacurers will increse the sales of the model X.
+* Null Hypothesis: Having a higer horse power performance than other manufacurers will show no improvments on the sales of the model X.
 
-  * Null Hypothesis - If dark chocolate is not related to arterial function in healthy individuals, then consuming 30g per day of dark chocolate for 1 year will show no improvement in arterial function.
-
-  * Alternative Hypothesis - If dark chocolate is related to arterial function in healthy individuals, then consuming 30g of dark chocolate per day for 1 year will show improvement in arterial function.
+The data needed is the sales of hour model X and the other manufacturer cars in the same car rabge type before and after the increse of the model X hourse power.
+We can also analyze the changes of the horse power over the past 10 years with similar cars and see if any change on the horse power affects the sales of our cars or the competition cars.
