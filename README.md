@@ -22,7 +22,11 @@ The design specifications for the MechaCar suspension coils dictate that the var
 
 As a whole, all lotes together metts this criteria, with a variance of 62.29, but as an individual lots, only Lot1 and Lot2 meet the criteria, with variances of 0.98 and 7.47 respectively. Lot3 surpass the minimun requirement with a variance of 170.29, 70 PSI above the manufacturing specifictions.
 
+
 ## T-Tests on Suspension Coils
+
+<img src='https://github.com/juliomeza/MechaCar_Statistical_Analysis/blob/main/Screenshots/3-T-Test-All-Lots.png'>
+
 briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
 
 
