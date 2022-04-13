@@ -14,7 +14,7 @@ The vehicle length and the ground clearance as well as the intercept, are statis
 
 <img src='https://github.com/juliomeza/MechaCar_Statistical_Analysis/blob/main/Screenshots/2-TotalSummary.png'>
 
-The mean and the median are very close to each other, means the data set has a symmetrical distribution. The distribution chart also confirms this. The variance and the standard deviation for the whole population are high. Means the data points are very spread out from the mean and from one another.
+The mean and the median are very close to each other, means the data set has a symmetrical distribution. The distribution chart also confirms this. The variance and the standard deviation for the whole population are high. Means the data points are very spread out from the mean and from one another, but meets the design specification for all manufacturing lots in total.
 
 <img src='https://github.com/juliomeza/MechaCar_Statistical_Analysis/blob/main/Screenshots/2-LotSummary.png'>
 

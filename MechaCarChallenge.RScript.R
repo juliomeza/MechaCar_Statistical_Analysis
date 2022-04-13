@@ -15,18 +15,33 @@ summary(lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_cleara
 
 
 
-
 ### DELIVERABLE 2: VISUALIZATIONS FOR THE TRIP ANALYSIS
 # Import Suspension_Coil.csv
 suspension_table <- read.csv('Suspension_Coil.csv',check.names = F,stringsAsFactors = F)
 # Data Frame
 total_summary <- summarize(suspension_table, mean(PSI), median(PSI), var(PSI), sd(PSI))
 total_summary
+# Plot
+plt <- ggplot(suspension_table, aes(x=PSI))
+plt + geom_density()
 
 # Group By Lot Summarize
 lot <- group_by(suspension_table, Manufacturing_Lot)
 lot_summary <- summarize(lot, mean(PSI), median(PSI), var(PSI), sd(PSI))
 lot_summary
+# Plotting all lots
+# Lot1
+lot1 <- suspension_table %>% filter(Manufacturing_Lot=='Lot1') #select only data points where the lot is Lot1
+plt <- ggplot(lot1, aes(x=PSI))
+plt + geom_density()
+# Lot2
+lot2 <- suspension_table %>% filter(Manufacturing_Lot=='Lot2') #select only data points where the lot is Lot2
+plt <- ggplot(lot2, aes(x=PSI))
+plt + geom_density()
+# Lot3
+lot3 <- suspension_table %>% filter(Manufacturing_Lot=='Lot3') #select only data points where the lot is Lot3
+plt <- ggplot(lot3, aes(x=PSI))
+plt + geom_density()
 
 
 
