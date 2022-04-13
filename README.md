@@ -30,9 +30,9 @@ As a whole, all lotes together metts this criteria, with a variance of 62.29, bu
 Using the T-Test we can conlucde that the PSI accross all manufacturing lots is 'Statistically Different' from the population mean of 1,500 pounds per square inch because the p-value is greater than 0.5 (0.6036).
 
 <p float="left">
-<img src='https://github.com/juliomeza/MechaCar_Statistical_Analysis/blob/main/Screenshots/3-Lot1.png' width=350>
-<img src='https://github.com/juliomeza/MechaCar_Statistical_Analysis/blob/main/Screenshots/3-Lot2.png' width=350>
-<img src='https://github.com/juliomeza/MechaCar_Statistical_Analysis/blob/main/Screenshots/3-Lot3.png' width=350>
+<img src='https://github.com/juliomeza/MechaCar_Statistical_Analysis/blob/main/Screenshots/3-Lot1.png' width=400>
+<img src='https://github.com/juliomeza/MechaCar_Statistical_Analysis/blob/main/Screenshots/3-Lot2.png' width=400>
+<img src='https://github.com/juliomeza/MechaCar_Statistical_Analysis/blob/main/Screenshots/3-Lot3.png' width=400>
 </p>
 
 Comparing each manufacturing lot agains the mean PSI of the population, I can conclude that each lot is NOT statistically different from the population mean of 1,500 pounds per square inch because each lot has a p-value lower than 0.5.
